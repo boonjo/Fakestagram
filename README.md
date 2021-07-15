@@ -1,4 +1,4 @@
-# Instagram Fake Checker
+# Instagram-Fake-Checker
 Fake (n): Those who don't follow you back on Insta
 
 ## Installation
