@@ -12,7 +12,7 @@ COMMENTS = ['This is great', 'keep up the good work!', 'I love your photos!', 'T
 
 # Opening Chrome
 print('⏳ Opening Browser... ⌛️\n')
-chromedriver_path = '/Users/joonbo/Documents/Personal/Playground/fake_insta/chromedriver'
+chromedriver_path = '/Users/joonbo/Documents/Personal/Playground/Fakestagram/chromedriver'
 driver = webdriver.Chrome(executable_path=chromedriver_path)
 sleep(2)
 driver.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
