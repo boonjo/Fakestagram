@@ -13,6 +13,8 @@ This is still incomplete as there's still some complications to fix.
 
 Clone it via [git clone](https://github.com/git-guides/git-clone) to install Website Checker
 
+Make sure to have [instaloader](https://instaloader.github.io) downloaded as well.
+
 ```bash
 git clone https://github.com/boonjo/Fakestagram.git
 ```
