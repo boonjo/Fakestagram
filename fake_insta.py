@@ -35,5 +35,6 @@ else:
     print ("🚨 YOU HAVE " + str(len(fake_friends)) + " FAKE FRIENDS 🚨\n")
     for fake in fake_friends:
         print("💀 " + fake + "\n")
-    
+
+print ("🚨 YOU HAVE " + str(len(fake_friends)) + " FAKE FRIENDS 🚨\n")
 print("--- %s seconds ---" % (time.time() - start_time))
