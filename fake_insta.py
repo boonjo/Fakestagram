@@ -52,6 +52,7 @@ class InstaUser:
 def main():    
     subprocess.run("clear")
     cprint(figlet_format('fakestagram', font='speed'), 'blue')
+    cprint("Created by Joonbo Shim\n", 'blue')
     
     USER = input("Enter your Instagram username: ")
     PASSWORD = getpass.getpass("Enter your Password: ")
