@@ -1,6 +1,5 @@
 import sys
 import subprocess
-import time
 import getpass
 
 import instaloader
@@ -28,12 +27,12 @@ class InstaUser:
         self.followers = []
         self.following = []
         
-        with alive_bar(self.profile.get_followers().count, title="Looking through your followers") as bar:
+        with alive_bar(self.profile.get_followers().count, title="\nLooking through your followers") as bar:
             for followers in self.profile.get_followers():
                 self.followers.append(followers.username)
                 bar()
         
-        with alive_bar(self.profile.get_followees().count, title="Judging who you follow") as bar: 
+        with alive_bar(self.profile.get_followees().count, title="\nJudging who you follow") as bar: 
             for followee in self.profile.get_followees():
                 self.following.append(followee.username)
                 bar()
@@ -47,6 +46,11 @@ class InstaUser:
 
     def getFake(self):
         fake_friends = list(set(self.following)-set(self.followers))
+        
+        if (len(fake_friends) == 0):
+            print("Everyone follows you back!")
+            return
+        
         return fake_friends
     
 def main():    
@@ -54,8 +58,8 @@ def main():
     cprint(figlet_format('fakestagram', font='speed'), 'blue')
     cprint("Created by Joonbo Shim\n", 'blue')
     
-    USER = input("Enter your Instagram username: ")
-    PASSWORD = getpass.getpass("Enter your Password: ")
+    USER = input("Enter your Instagram Username: ")
+    PASSWORD = getpass.getpass("\nEnter your Instagram Password: ")
 
     user = InstaUser(USER, PASSWORD)
                     
