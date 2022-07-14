@@ -50,7 +50,7 @@ class InstaUser:
             return
         else:
             print("\n\n🚨 These are your fake 'friends' 🚨\n")
-            for fake in fake_friends:            
+            for fake in fake_friends:
                 print('💀 {}\n'.format(fake))
             return
     
