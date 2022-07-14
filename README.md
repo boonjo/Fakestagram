@@ -1,11 +1,11 @@
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][https://github.com/boonjo/Fakestagram/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/boonjo/Fakestagram/network/members]
-[![Stargazers][stars-shield]][https://github.com/boonjo/Fakestagram/stargazers]
-[![Issues][issues-shield]][https://github.com/boonjo/Fakestagram/issues]
-[![MIT License][license-shield]][https://github.com/boonjo/Fakestagram/blob/main/LICENSE]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/joonbo-shim-49a392197/]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -13,22 +13,23 @@
 <br />
 <div align="center">
   <a href="https://github.com/boonjo/Fakestagram">
-    <img src="https://www.rawpixel.com/search/login%20png" alt="Logo" width="80" height="80">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Fakestagram</h3>
 
   <p align="center">
-    project_description
+    Fake (n): Those who don't follow you back on Insta
+    Designed to look through your follower and following list and determine which users aren't following you back
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/boonjo/Fakestagram"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/boonjo/Fakestagram">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/boonjo/Fakestagram/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="hhttps://github.com/boonjo/Fakestagram/issues">Request Feature</a>
   </p>
 </div>
 
@@ -198,18 +199,18 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[contributors-shield]: https://github.com/boonjo/Fakestagram/graphs/contributors.svg?style=for-the-badge
+[contributors-url]: https://github.com/boonjo/Fakestagram/graphs/contributors
+[forks-shield]: https://github.com/boonjo/Fakestagram/network/members.svg?style=for-the-badge
+[forks-url]: https://github.com/boonjo/Fakestagram/network/members
+[stars-shield]: https://github.com/boonjo/Fakestagram/stargazers.svg?style=for-the-badge
+[stars-url]: https://github.com/boonjo/Fakestagram/stargazers
+[issues-shield]: https://github.com/boonjo/Fakestagram/issues.svg?style=for-the-badge
+[issues-url]: https://github.com/boonjo/Fakestagram/issues
+[license-shield]: https://github.com/boonjo/Fakestagram/blob/main/LICENSE.svg?style=for-the-badge
+[license-url]: https://github.com/boonjo/Fakestagram/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
+[linkedin-url]: https://www.linkedin.com/in/joonbo-shim-49a392197/
 [product-screenshot]: images/screenshot.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
