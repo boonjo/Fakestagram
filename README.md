@@ -20,7 +20,10 @@
 
   <p align="center">
     Fake (n): Those who don't follow you back on Insta
+    <br />
+    <br />
     Designed to look through your follower and following list and determine which users aren't following you back
+    <br />
     <br />
     <a href="https://github.com/boonjo/Fakestagram"><strong>Explore the docs »</strong></a>
     <br />
@@ -90,7 +93,7 @@ To get a local copy up and running follow these simple example steps.
    git clone https://github.com/boonjo/Fakestagram.git
    ```
 2. Run with Python
-   ```bash
+    ```bash
     python fake_insta.py
     ```
     or
@@ -143,7 +146,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@boonjo_](https://twitter.com/boonjo_) - joonbo@gmail.com
+Joonbo Shim - [@boonjo_](https://twitter.com/boonjo_) - joonbo@gmail.com
 
 Project Link: [https://github.com/boonjo/Fakestagram](https://github.com/boonjo/Fakestagram)
 
