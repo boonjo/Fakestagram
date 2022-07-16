@@ -21,8 +21,7 @@
   <p align="center">
     Fake (n): Those who don't follow you back on Insta
     Designed to look through your follower and following list and determine which users aren't following you back
-    <br /><img width="1121" alt="image" src="https://user-images.githubusercontent.com/61446495/179333380-6ca5f8c4-9d20-4073-91f7-c112f66f5984.png">
-
+    <br />
     <a href="https://github.com/boonjo/Fakestagram"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -66,7 +65,7 @@
 
 [![Fakestagram Screen Shot][product-screenshot]](https://github.com/boonjo/Fakestagram)
 
-<img src="images/demo.gif" alt="Logo" width="400" height="200">
+<img src="images/demo.gif" alt="Demo" width="1100" height="400">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
