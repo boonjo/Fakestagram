@@ -21,7 +21,8 @@
   <p align="center">
     Fake (n): Those who don't follow you back on Insta
     Designed to look through your follower and following list and determine which users aren't following you back
-    <br />
+    <br /><img width="1121" alt="image" src="https://user-images.githubusercontent.com/61446495/179333380-6ca5f8c4-9d20-4073-91f7-c112f66f5984.png">
+
     <a href="https://github.com/boonjo/Fakestagram"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -63,9 +64,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Fakestagram Screen Shot][product-screenshot]](https://github.com/boonjo/Fakestagram)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+<img src="images/demo.gif" alt="Logo" width="400" height="200">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -139,11 +140,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
+ 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/boonjo_) - joonbo@gmail.com
+Your Name - [@boonjo_](https://twitter.com/boonjo_) - joonbo@gmail.com
 
 Project Link: [https://github.com/boonjo/Fakestagram](https://github.com/boonjo/Fakestagram)
 
