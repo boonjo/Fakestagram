@@ -1,49 +1,43 @@
 import sys
 import subprocess
 import getpass
-import os
-
-import instaloader
+from instagrapi import Client
 from alive_progress import alive_bar
 from colorama import init
 init(strip=not sys.stdout.isatty()) # strip colors if stdout is redirected
 from termcolor import cprint 
 from pyfiglet import figlet_format
 
-imports = ["instaloader", "alive-progress", "pyfiglet", "termcolor", "colorama"]
+imports = ["instagrapi", "alive-progress", "pyfiglet", "termcolor", "colorama"]
 
 class InstaUser:
     def __init__(self, username, password):        
         self.username = username
         self.password = password
-        self.access = instaloader.Instaloader()
-        self.access.login(self.username, self.password)
-        self.profile = instaloader.Profile.from_username(self.access.context, self.username)
+        self.cl = Client()
+        self.cl.login(self.username,  self.password)
         
+        self.ID = self.cl.user_id_from_username(self.username)
+            
         self.followers = []
         self.following = []
-        
-        with alive_bar(self.profile.get_followers().count, title="Looking through your followers") as bar:
-            for followers in self.profile.get_followers():
-                self.followers.append(followers.username)
+
+        with alive_bar(len(self.cl.user_followers_v1(self.ID)), title="Looking through your followers") as bar:
+            self.user_followers = self.cl.user_followers_v1(self.ID)
+            for user in self.user_followers:
+                self.followers.append(user.username)
                 bar()
                 
         print("\n")
         
-        with alive_bar(self.profile.get_followees().count, title="Judging who you follow") as bar: 
-            for followee in self.profile.get_followees():
-                self.following.append(followee.username)
+        with alive_bar(len(self.cl.user_following_v1(self.ID)), title="Judging who you follow") as bar: 
+            self.user_following = self.cl.user_following_v1(self.ID)
+            for user in self.user_following:
+                self.following.append(user.username)
                 bar()
-            
-    
-    def getFollowers(self):
-        return self.followers
-    
-    def getFollowing(self):
-        return self.following
 
     def getFake(self):
-        fake_friends = list(set(self.following)-set(self.followers))
+        fake_friends = [item for item in self.following if item not in self.followers]
         
         if (len(fake_friends) == 0):
             print("\n\n🎉 Everyone follows you back! 🎉")
